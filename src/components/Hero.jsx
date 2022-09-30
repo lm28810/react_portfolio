@@ -1,12 +1,10 @@
 import React from "react";
 import hero from "../assets/images/hero.png";
+import { SocialIcon} from 'react-social-icons'
+
+
 const Hero = () => {
-  const social_media = [
-    "logo-instagram",
-    "logo-facebook",
-    "logo-linkedin",
-    "logo-twitter",
-  ];
+
   return (
     <section
       id="home"
@@ -22,22 +20,20 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My Name is <span>John Alex</span>
+            My Name is <span className="text-yellow-400">Jazmine Riley</span>
           </h1>
-          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            Fullstack Developer
+          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-400">
+            Fullstack Developer & UX/UI Designer
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
-          <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-            {social_media?.map((icon) => (
-              <div
-                key={icon}
-                className="text-gray-600 hover:text-white cursor-pointer "
-              >
-                <ion-icon name={icon}></ion-icon>
+          <div className='flex flex-row items-center' >
+              {/* social icons  */}
+              <SocialIcon url='https://www.linkedin.com/in/jazmine-riley-8a521665'
+              fgColor='gray' bgColor='transparent'/>
+              <SocialIcon url='https://github.com/lm28810'
+              fgColor='gray' bgColor='transparent'/>
+              
               </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

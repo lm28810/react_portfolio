@@ -7,19 +7,17 @@ const Hireme = () => {
         <h3 className="text-4xl font-semibold">
           Hire <span className="text-cyan-600">Me</span>
         </h3>
-        <p className="text-gray-400 mt-3 text-lg">Do you have any work?</p>
+        <p className="text-gray-400 mt-3 text-lg"></p>
       </div>
       <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div>
           <h2 className="text-2xl font-semibold">
-            Do you want any work from me?
+            What It's Like To Work With Me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+            If you are looking for someone who is easy to get along with, takes pride in creating and developing quality apps, websites, and code, that's me. I have a background in Cybersecurity and Networking, but don't let that turn you off because it has helped me become a better developer because I always keep security and optimization in mind. The cherry on top, I'm kind of funny!
           </p>
+          <p> Keep Scrolling, Lets Talk</p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>
         <img

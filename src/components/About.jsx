@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/images/about.png";
+import aboutImg from "../assets/images/about.jpg";
 const About = () => {
   const info = [
     { text: "Years experience", count: "04" },
@@ -10,18 +10,20 @@ const About = () => {
     <section id="about" className="py-10 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
-          About <span className="text-cyan-600">Me</span>
+          Here's a Bit More <span className="text-cyan-600">About Me</span>
         </h3>
-        <p className="text-gray-400 my-3 text-lg">My introduction</p>
+             <p className="text-gray-400 my-3 text-lg"></p>
+                  
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
-            <div className="text-gray-300 my-3">
-              <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+            <div className="text-gray-300 my-20 ">
+              <p className=" text-xl tracking-wider  mx-auto ">
+                I am a developer that loves beautiful applications and clean user interfaces.  I have been in the tech industry for almost 7 years. And I am m obsessed with everything React… I am looking to work for a company that thrives on developer innovation, and offers challenging, and meaningful projects. 
+                  
               </p>
+              <br/>
+              <p className='text-2xl tracking-wide text-yellow-400'>What else would you like to know…?</p>
+              
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>
@@ -35,7 +37,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/Code_a_program.pdf" download>
+              <a href="./src/assets/Resume.docx" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
