@@ -26,12 +26,12 @@ const Hero = () => {
             Fullstack Developer & UX/UI Designer
           </h4>
           <button className="btn-primary mt-8">Contact Me</button>
-          <div className='flex flex-row items-center' >
+          <div className='flex flex-row items-center ' >
               {/* social icons  */}
               <SocialIcon url='https://www.linkedin.com/in/jazmine-riley-8a521665'
-              fgColor='gray' bgColor='transparent'/>
+              fgColor='gray' bgColor='transparent ' className=" cursor-pointer "/>
               <SocialIcon url='https://github.com/lm28810'
-              fgColor='gray' bgColor='transparent'/>
+              fgColor='gray' bgColor='transparent' className=" cursor-pointer" />
               
               </div>
         </div>

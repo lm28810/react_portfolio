@@ -16,9 +16,9 @@ const About = () => {
                   
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
-            <div className="text-gray-300 my-20 ">
-              <p className=" text-xl tracking-wider  mx-auto ">
-                I am a developer that loves beautiful applications and clean user interfaces.  I have been in the tech industry for almost 7 years. And I am m obsessed with everything React… I am looking to work for a company that thrives on developer innovation, and offers challenging, and meaningful projects. 
+            <div className="text-white my-20 ">
+              <p className=" lg:text-left text-justify max-w-lg text-xl mt-4 text-gray-200 leading-6  mx-auto font-semi-bold">
+                <span className="text-yellow-400">I am a developer that loves beautiful applications and clean user interfaces. </span> I have been in the tech industry for almost 7 years. And I am m obsessed with everything React… I am looking to work for a company that thrives on developer innovation, and offers challenging, and meaningful projects. 
                   
               </p>
               <br/>

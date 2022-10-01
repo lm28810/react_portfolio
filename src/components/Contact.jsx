@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
   const contact_info = [
     { logo: "mail", text: "Lm28810@gmail.com" },
-    { logo: "logo-phone", text: "248 885 9476" },
+    { logo: "logo-whatsapp", text: "248 885 9476" },
     {
       logo: "location",
-      text: "Toronto ,ON Canada & Detroit ,MI USA",
+      text: "United States",
     },
   ];
   return (
@@ -21,11 +21,15 @@ const Contact = () => {
           className="mt-16 flex md:flex-row flex-col
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
-          <form className="flex flex-col flex-1 gap-5">
+          <form className="flex flex-col flex-1 gap-5" action="POST" data-netlify="true" >
             <input type="text" placeholder="Your Name" />
             <input type="Email" placeholder="Your Email Address" />
             <textarea placeholder="Your Message" rows={10}></textarea>
             <button className="btn-primary w-fit">Send Message</button>
+            <div className="field">
+              <div data-netlify-recaptcha="true"></div>
+
+                </div>
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (
@@ -40,6 +44,7 @@ const Contact = () => {
                 <p className="md:text-base text-sm  break-words">
                   {contact.text}
                 </p>
+                
               </div>
             ))}
           </div>
