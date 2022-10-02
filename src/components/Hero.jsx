@@ -25,7 +25,7 @@ const Hero = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-400">
             Fullstack Developer & UX/UI Designer
           </h4>
-          <button className="btn-primary mt-8">Contact Me</button>
+         <a href="#contact"> <button className="btn-primary mt-8">Contact Me</button></a>
           <div className='flex flex-row items-center ' >
               {/* social icons  */}
               <SocialIcon url='https://www.linkedin.com/in/jazmine-riley-8a521665'

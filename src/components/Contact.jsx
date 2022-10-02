@@ -19,19 +19,10 @@ const Contact = () => {
 
         <div
           className="mt-16 flex md:flex-row flex-col
-         gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
+         gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto justify-center"
         >
-          <form className="flex flex-col flex-1 gap-5" name="contact" action="POST" data-netlify="true" >
-            <input type="text" placeholder="Your Name" />
-            <input type="Email" placeholder="Your Email Address" />
-            <textarea placeholder="Your Message" rows={10}></textarea>
-            <button className="btn-primary w-fit">Send Message</button>
-            <div className="field">
-              <div data-netlify-recaptcha="true"></div>
-
-                </div>
-          </form>
-          <div className="flex flex-col  gap-7 ">
+         
+          <div className="flex flex-col  gap-7 justify-center ">
             {contact_info.map((contact, i) => (
               <div
                 key={i}
