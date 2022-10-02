@@ -30,7 +30,7 @@ const Skills = () => {
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>
         </h3>
-        <p className="text-gray-300 mt-3 text-lg"> Core Skills </p>
+        <p className="text-gray-300 mt-3 text-lg"> Just My Core Skills </p>
         <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
           {skills?.map((skill, i) => (
             <div

@@ -2,8 +2,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
+import project3 from "../assets/images/project-3.png";
+import project4 from "../assets/images/project-4.png";
 import project5 from "../assets/images/project-5.png";
 import project_person from "../assets/images/project_person1.png";
 import "swiper/css";
@@ -15,34 +15,34 @@ const Project = () => {
     {
       img: project1,
       name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
+      github_link: "https://github.com/lm28810/first-project.git",
       live_link: "https://myreactflix.netlify.app",
     },
     {
       img: project2,
       name: "Fitness App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      github_link: "https://github.com/lm28810/Fitness-App.git",
+      live_link: "https://musical-axolotl-db3041.netlify.app",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      name: "Finance Landing Page- Design Only",
+      github_link: "https://github.com/lm28810/Finance-website.git",
+      live_link: "https://remarkable-centaur-2dd6a9.netlify.app",
     },
-    {
-      img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
-    },
-    {
-      img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
-    },
+    // {
+      // img: project4,
+      // name: "Advice App",
+      // github_link:
+        // "https://github.com/lm28810/Adcice-App.git",
+      // live_link: "https://musical-lolly-0b2f33.netlify.app",
+    // },
+    // {
+      // img: project5,
+      // name: "Vue Country",
+      // github_link: "https://github.com/Sridhar-C-25",
+      // live_link: "https://vuecountry05.netlify.app",
+    // },
   ];
   return (
     <section id="projects" className="py-10 text-white">

@@ -2,7 +2,7 @@ import React from "react";
 import aboutImg from "../assets/images/about.jpg";
 const About = () => {
   const info = [
-    { text: "Years experience", count: "04" },
+    { text: "Years Experience", count: "07" },
     { text: "Completed Projects", count: "24" },
     { text: "Companies Work", count: "06" },
   ];
@@ -18,11 +18,11 @@ const About = () => {
           <div className="p-2">
             <div className="text-white my-20 ">
               <p className=" lg:text-left text-justify max-w-lg text-xl mt-4 text-gray-200 leading-6  mx-auto font-semi-bold">
-                <span className="text-yellow-400">I am a developer that loves beautiful applications and clean user interfaces. </span> I have been in the tech industry for almost 7 years. And I am m obsessed with everything React… I am looking to work for a company that thrives on developer innovation, and offers challenging, and meaningful projects. 
+                My goal is to create user-friendly applications with clean and crisp interfaces. I have spent the last seven years in the technology industry and possess credible experience with everything relating to React. My next adventure will involve collaborating with a company that thrives on developer innovation, challenges, and meaningful projects. My previous experience includes Cybersecurity and Networking, which has helped me become a better developer. Therefore, security and optimization are the backbones of any successful project.
                   
               </p>
               <br/>
-              <p className='text-2xl tracking-wide text-yellow-400'>What else would you like to know…?</p>
+              <p className='text-2xl tracking-wide text-yellow-400'>Interested in knowing more?</p>
               
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (

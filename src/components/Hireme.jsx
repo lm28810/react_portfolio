@@ -12,13 +12,14 @@ const Hireme = () => {
       <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div>
           <h2 className="text-2xl font-semibold">
-            What It's Like To Work With Me?
+            What It's Like Working With Me?
+
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-lg mt-4 text-white leading-6">
-            If you are looking for someone who is easy to get along with, takes pride in creating and developing quality apps, websites, and code, that's me. <span className="text-yellow-400">I have a background in Cybersecurity and Networking,</span> but don't let that turn you off because <span className="text-yellow-400">it has helped me become a better developer,</span>always keeping security and optimization in mind. 
+            If you are looking for someone team-oriented, goal-focused, and takes pride in creating and developing quality apps, websites, and code, look no further. I verify that all projects meet the desires of the client. All interactions are stress-free and incorporate client feedback. 
           </p>
           <br/>
-          <p className="text-yellow-400 text-lg"> The cherry on top, I'm kind of funny!</p>
+          <p className="text-yellow-400 text-lg"> It helps to have a great sense of humor!</p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>
         <img
